@@ -9,4 +9,4 @@ by Abdulrahman Elsharqawi, This project is supervised by Udacity's **[Full Stack
 ### How to run
 To view the webpage, clone this repository directory <i class="icon-folder-open"></i> and open <i class="icon-file"></i> `index.html`.
 ### Preview
-![Build a Portfolio Site Preview](preview.png?raw=true "Portfolio Site")
+![Build a Portfolio Site Preview](Preview.png?raw=true "Portfolio Site")
