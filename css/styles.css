@@ -1,0 +1,197 @@
+/*Global*/
+body {
+    font: 15px/1.5 'Segoe UI', "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*Header*/
+header {
+    background-color: #07021A;
+    color: #c7c1d8;
+    min-height: 70px;
+    text-align: center;
+    border-bottom: white 3px solid;
+}
+
+header .row .logo {
+    text-align: center;
+}
+
+header .row .title h1{
+    padding-top: 20px;
+}
+
+header .row .title h1::after{
+    display: block;
+    content: "Full-Stack Web Developer";
+    font-size: 15px;
+}
+
+header img {
+    margin: 5%;
+    width: 70%;
+}
+
+/*Showcase*/
+#showcase {
+    min-height: 400px;
+    overflow: auto;
+    background: url(../img/showcase.jpg) no-repeat;
+    text-align: center;
+    color: white;
+    border-bottom: white 3px solid;
+}
+#showcase h2 {
+    padding-top: 100px;
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+#showcase p {
+    font-size: 20px;
+}
+
+/*Bio*/
+#bio {
+    padding: 10px;
+    min-height: 60px;
+    color: white;
+    background-color: #0d001a;
+    text-align: center;
+}
+
+#bio .row span {
+    opacity: 0.7;
+    font-size: medium;
+    width: inherit;
+    margin-bottom: 10px;
+}
+#bio .row span:hover{
+    opacity: 1;
+    color: black;
+}
+
+/*Projects*/
+#projects {
+    padding: 10px;
+    border-bottom: #1B0E46 3px solid;  
+}
+
+#projects .row .box {
+    text-align: center;
+}
+
+#projects .row .box a {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#projects .row img {
+    max-width: 90px;
+    margin: 10px;
+}
+
+/*Skills*/
+#skills {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 1%;
+    border-bottom: #1B0E46 3px solid;
+}
+
+
+
+/*Footer*/
+footer {
+    text-align: center;
+}
+
+footer .container .row div {
+    width: 25%;
+}
+
+footer .container .row div i{
+    font-size: 48px;
+}
+
+footer .container .row div a i{
+    opacity: 0.6;
+    color: black; 
+}
+footer .container .row div a i#facebook:hover {
+    opacity: 1;
+    color: #395A9A;
+}
+
+footer .container .row div a i#twitter:hover {
+    opacity: 1;
+    color: #02ABED;
+}
+
+footer .container .row div a i#linkedin:hover {
+    opacity: 1;
+    color: #0274B3;
+}
+
+footer .container .row div a i#github:hover {
+    opacity: 1;
+    color: black;
+}
+
+
+/* Medium devices (phones, phablets, tablets, screens until 768px)*/
+@media (max-width: 768px) {
+/*    Header*/
+    header {
+        text-align: center;
+    }
+    
+/*    Showcase*/
+    #showcase h2 {
+        font-size: x-large;
+    }
+    
+    #showcase p {
+        font-size: medium;
+    }
+    
+/*    Bio*/
+    #bio {
+        text-align: center;
+    }
+    #bio .row div span {
+        font-size: small;
+        margin: 10px 0 10px 0;
+        width: 100%;
+    }
+    
+/*    Projects*/
+    #projects .row .box {
+        text-align: center;
+    }
+    
+    #projects .row img , #projects .row a {
+        width: 50%;
+    }
+    
+/*    Skills*/
+    #skills .row .col-md-2 .progress {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+/*    Footer*/
+    footer .container .row div {
+        margin-bottom: 10px;
+    }
+    
+}
+

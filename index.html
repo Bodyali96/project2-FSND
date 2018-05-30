@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>My Portifolio</title>
+        <meta name="description" content="Abdulrahman's first portfolio website" />
+        <meta name="keywords" content="portfolio, abdulrahman, udacity" />
+        <meta name="author" content="Abdulrahman Elsharqawi" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/modal.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+<!--        Start Header -->
+<!--        Note: all the code related to image model (markup - modal.css - script.js) is taken                   from w3schools.com -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-2">
+                        <img id="myImg" src="img/logo.jpg" alt="Abdulrahman's avatar" />
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                          <!-- The Close Button -->
+                          <span class="close">&times;</span>
+
+                          <!-- Modal Content (The Image) -->
+                          <img class="modal-content" id="img01" src="..." alt="Abdulrahman's avatar">
+
+                          <!-- Modal Caption (Image Text) -->
+                          <div id="caption"></div>
+                        </div>
+                    </div>
+                    <div class="title col-md-10">
+                        <h1><a href="index.html">Abdulrahman Elsharqawi</a></h1>
+                    </div>                    
+                </div>
+
+            </div> 
+        </header>
+<!--        End Header-->
+        
+<!--        Start Showcase-->
+        <section id="showcase">
+            <div class="container">
+                <h2>Better Quality, Cheaper Price.</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </section>
+<!--        End Showcase-->
+        
+<!--        Start Bio-->
+        <section id="bio">
+            <div class="container">
+                <div class="row">
+                    <h2><i class="fa fa-address-card-o"></i> Bio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <span class="badge badge-light"><i class="fa fa-briefcase"></i> Web Developer</span>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <span class="badge badge-light"><i class="fa fa-home"></i> Riyadh, KSA</span>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-8 mx-auto">
+                        <span class="badge badge-light"><i class="fa fa-envelope"></i> 215110068@psu.edu.sa</span>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 mx-auto">
+                        <span class="badge badge-light"><i class="fa fa-phone"></i> +966501722141</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+<!--        End Bio-->
+        
+<!--        Start Projects-->
+        
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <h2><i class="fa fa-bookmark"></i> Projects</h2>
+                </div>
+                <div class="row">
+                    <div class="box col-md-4">
+                        <img src="img/pr1.png" alt="project 1 logo" />
+                        <a class="btn btn-outline-dark" href="https://github.com/Bodyali96/Tweeto" target="_blank">Tweeto</a>
+                        <p>Tweeto was my project in Data Structure course in university. The aim from this project was to store some tweets and sort them using hash tables and binary heap.
+                        </p>
+                    </div>
+                    <div class="box col-md-4">
+                        <img src="img/pr2.png" alt="project 2 logo" />
+                       <a class="btn btn-outline-dark" href="https://github.com/Bodyali96/project1-FSND" target="_blank">Movie Trailer Website</a>
+                        <p>This project is my first project in Udacity's Web developer nanodegree. The project is a front-end template that stores a list of my favorite movies, including box art imagery and a movie trailer URL.
+                        </p>
+                        <a href="https://github.com/Bodyali96/project1-FSND"></a>
+                    </div>
+                    <div class="box col-md-4">
+                        <img src="img/pr3.png" alt="project 3 logo" />
+                        <a class="btn btn-outline-dark" href="https://github.com/Bodyali96?tab=repositories" target="_blank">Other Projects</a>
+                        <p>Here are all of my other projects and repositories, some of them are projects from FreeCodeCamp, and others from Udacity, and others are just a simple projects to test the abilities of python and java.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--        End Projects--> 
+        
+<!--        Start Skills-->
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <h2><i class="fa fa-thumbs-up"></i> Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Java</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Python</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>PHP</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Javascript</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>OOP</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Databases</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--        End Skills-->
+        
+        
+        
+<!--        Start Footer-->
+        <footer>
+            <div class="container">
+                <p><span class="badge badge-danger">Find me on social media.</span></p>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="https://www.fb.com/bodyali96.eg" target="_blank">
+                            <i class="fa fa-facebook-official" id="facebook"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.twitter.com/bodyali96" target="_blank">
+                            <i class="fa fa-twitter" id="twitter"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.linkedin.com/in/bodyali96" target="_blank">
+                            <i class="fa fa-linkedin" id="linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.github.com/bodyali96" target="_blank">
+                            <i class="fa fa-github" id="github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </footer>
+<!--        End Footer-->
+        
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
